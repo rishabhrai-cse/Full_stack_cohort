@@ -1,13 +1,13 @@
 //  Primitive
 
-//  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
+//  7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
 
 const score = 100
 const scoreValue = 100.3
 
 const isLoggedIn = false
 const outsideTemp = null
-let userEmail;
+let userEmail;// valuse is undefined
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
@@ -35,3 +35,13 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// Stack memory(primitive datatypes)   ,  Heap memory(non-primitve)
+
+let myYoutubename="rai-sahab"
+
+let anothername=myYoutubename
+anothername="rishabh-rai"
+console.log(myYoutubename);
+console.log(anothername);
