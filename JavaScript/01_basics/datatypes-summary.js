@@ -45,3 +45,27 @@ let anothername=myYoutubename
 anothername="rishabh-rai"
 console.log(myYoutubename);
 console.log(anothername);
+
+
+
+
+/**
+ * ============================================================================
+ * JAVASCRIPT MEMORY SUMMARY: STACK VS HEAP
+ * ============================================================================
+ * 
+ * 1. STACK MEMORY (Fast, rigid LIFO structure)
+ *    - Stores: Primitive values (Number, String, Boolean, null, undefined)
+ *              and Object Pointers (memory addresses).
+ *    - Behavior: "Copy by Value" — changes to a copied variable do NOT 
+ *                affect the original.
+ * 
+ * 2. HEAP MEMORY (Large, dynamic, unstructured pool)
+ *    - Stores: Reference types (Objects, Arrays, Functions).
+ *    - Behavior: "Copy by Reference" — multiple variables can point to the 
+ *                same heap memory address. Modifying the data via one 
+ *                variable alters it for all.
+ * 
+ * Summary Rule: Primitives live on the Stack. Objects live on the Heap, 
+ *               but their access cards (pointers) are kept on the Stack.
+ */
