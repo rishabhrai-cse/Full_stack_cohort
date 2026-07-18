@@ -17,7 +17,7 @@ const user = {
 
 // function chai(){
 //     let username = "hitesh"
-//     console.log(this.username);
+//     console.log(this.username); // undefined dega
 // }
 
 // chai()
@@ -27,7 +27,7 @@ const user = {
 //     console.log(this.username);
 // }
 
-const chai =  () => {
+const chai =  () => {  // arrow function 
     let username = "hitesh"
     console.log(this);
 }
@@ -36,14 +36,14 @@ const chai =  () => {
 // chai()
 
 // const addTwo = (num1, num2) => {
-//     return num1 + num2
+//     return num1 + num2   // curly braces used , then use return 
 // }
 
-// const addTwo = (num1, num2) =>  num1 + num2
+// const addTwo = (num1, num2) =>  num1 + num2  // implicit return 
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
+const addTwo = (num1, num2) => ({username: "hitesh"})  // object ko return ke liye
 
 
 console.log(addTwo(3, 4))
