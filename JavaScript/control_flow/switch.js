@@ -18,7 +18,7 @@ switch (month) {
         break;
     case "march":
         console.log("march");
-        break;
+        break; // control flow ko break kr deta hai 
     case "april":
         console.log("april");
         break;
