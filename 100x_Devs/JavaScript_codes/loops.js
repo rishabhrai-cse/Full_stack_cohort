@@ -1,4 +1,7 @@
 // For loop
+// initiation section
+// condition section
+// incrementation section
 for (let i = 0; i < 5; i++) {
     console.log(i); // Outputs 0 to 4
 }
@@ -9,3 +12,5 @@ while (j < 5) {
     console.log(j); // Outputs 0 to 4
     j++;
 }
+
+
