@@ -13,7 +13,8 @@ for(let i=0;i<arr.length;i++){
     }
 }
 return arr2;
-    // you can use filter function inside amd array
+
+ // you can use filter function inside amd array
 }
 
 let user=[
