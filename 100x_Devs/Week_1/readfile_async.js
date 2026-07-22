@@ -8,7 +8,7 @@ fs.readFile("a.txt", "utf-8", function (err, contents) {
   console.log(contents);
 });
 
-
+//err -->error
 // import the fs module
 const fs = require("fs");
 
